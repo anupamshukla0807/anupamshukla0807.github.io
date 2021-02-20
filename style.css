@@ -23,21 +23,33 @@ footer
 main
 {
     height:50px;
-	width:1100px;
-	background-color: 45a1ff;
-	justify-content:center;
-	padding: 10px;
-	margin-left:800px;
+	width:120px;
+	background-color:red;
+	display:inline-block;
+	padding:0px;
+	margin-left:300px;
+	margin-bottom:10px;
 	font-style:italic;
 }
 li
 {
 font-size:19px;
 }
-header nav a
+.grid-container {
+  grid-row-start:auto;
+  display:inline-block;
+  grid-row-gap:30px;
+}
+header p
 {
-background-image: linear-gradient(rgba(0, 1, 255, 1), rgba(255, 255, 0, 0.5)),url("C:\Users\my pc\Desktop\HTML CSS\anupam.jpg");
-
+height:50px;
+width:100%;
+padding:20px;
+margin:10px;
+display:inline-block;
+}
+header p a
+{
 font-size:20px;
 color:yellow;
 height:80px;
@@ -45,5 +57,9 @@ width:100%;
 padding:30px;
 margin:10px;
 display:inline;
-
+background-color:blue;
+}
+p li
+{
+color:red;
 }
